@@ -26,7 +26,7 @@ namespace Demo
             
             //verificationErrors = new StringBuilder();
         }
-
+        //close the browser
         [AssemblyCleanup]
         public static void TeardownTest()
         {
